@@ -78,10 +78,7 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;97mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')
-            else:
-            	print "\033[1;97mWrong Username"
-            os.system('xdg-open https://www.youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')
+            os.system('xdg-open https://www.youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')      
 idh = []
 
 def logmen():
