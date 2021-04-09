@@ -115,7 +115,7 @@ def pilog():
         print (" ")
         print ("\033[1;92mToken No 10. EAAAAUaZA8jlABAGuUuqZCKpJlU9ZCJhHwuhyZCHsaBDjrxvuxMx6JHxdtQaTWg7HvEcMJBOPaw0Wo187IaVvP2Sx8CORxD2wD3FcYzYuqd0EFh2Rn8y8BVjYBjtlV3KOaWwmUwvuf3znjI3sdvjuuGGCm5T8GpVAAJgCgdnkBGlsMGFT6LFCjyhWTueN6c4ZD")
         print
-                token = raw_input("[+] Past Your Token Here : ")
+        token = raw_input("[+] Past Your Token Here : ")
         sav = open(".logfuck.txt","w")
         sav.write(token)
         sav.close()
