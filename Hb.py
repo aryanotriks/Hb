@@ -120,8 +120,7 @@ def pilog():
         sav.write(token)
         sav.close()
         print ("\r\033[1;32m[✓] Login Succesfully\033[0;97m")
-        else:
-        	os.system('xdg-open https://www.youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')
+        os.system('xdg-open https://www.youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')
         time.sleep(1)
         bot_fl()
     elif og =="0":
